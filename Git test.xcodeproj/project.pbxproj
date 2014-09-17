@@ -21,6 +21,7 @@
 		27F9B4C819C9DFDD00EC4624 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F9B4AA19C9DFDD00EC4624 /* UIKit.framework */; };
 		27F9B4D019C9DFDD00EC4624 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27F9B4CE19C9DFDD00EC4624 /* InfoPlist.strings */; };
 		27F9B4D219C9DFDD00EC4624 /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F9B4D119C9DFDD00EC4624 /* Git_testTests.m */; };
+		27F9B4DD19C9E28C00EC4624 /* EGTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F9B4DC19C9E28C00EC4624 /* EGTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		27F9B4CD19C9DFDD00EC4624 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		27F9B4CF19C9DFDD00EC4624 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27F9B4D119C9DFDD00EC4624 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		27F9B4DB19C9E28C00EC4624 /* EGTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGTest.h; sourceTree = "<group>"; };
+		27F9B4DC19C9E28C00EC4624 /* EGTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		27F9B49A19C9DFDD00EC4624 = {
 			isa = PBXGroup;
 			children = (
+				27F9B4DB19C9E28C00EC4624 /* EGTest.h */,
+				27F9B4DC19C9E28C00EC4624 /* EGTest.m */,
 				27F9B4AC19C9DFDD00EC4624 /* Git test */,
 				27F9B4CB19C9DFDD00EC4624 /* Git testTests */,
 				27F9B4A519C9DFDD00EC4624 /* Frameworks */,
@@ -253,6 +258,7 @@
 				27F9B4BD19C9DFDD00EC4624 /* EGViewController.m in Sources */,
 				27F9B4B719C9DFDD00EC4624 /* EGAppDelegate.m in Sources */,
 				27F9B4B319C9DFDD00EC4624 /* main.m in Sources */,
+				27F9B4DD19C9E28C00EC4624 /* EGTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
